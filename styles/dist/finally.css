@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: khaki;
+  margin: 0;
+}
+
+.logo {
+  font-family: serif;
+  text-decoration: none;
+  font-size: 3.5em;
+  padding: 8px 0 0 15px;
+}
+
+.ul-nav {
+  float: right;
+  list-style: none;
+}
+
+.ul-nav li {
+  display: inline-block;
+  margin: 8px 0 0 0;
+}
+
+.ul-nav li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: darkred;
+  font-weight: 550;
+  border: 1.5px solid darkred;
+  border-radius: 20%;
+  padding: 7px 25px;
+  margin: 0 15px;
+  transition: 0.4s ease;
+}
+
+.ul-nav li a:hover {
+  text-decoration: underline;
+  background-color: white;
+}

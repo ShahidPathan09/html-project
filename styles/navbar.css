@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: khaki;
+  margin: 0;
+  padding: 1em;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin: 10px 10px 0 0;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: darkred;
+  font-weight: bold;
+  font-size: larger;
+  padding: 5px 30px;
+  margin: 15px;
+  border: 2px solid darkred;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+img {
+  margin-left: 5px;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=navbar.css.map */
